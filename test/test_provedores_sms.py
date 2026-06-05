@@ -1,6 +1,6 @@
 import pytest
-from sample.service_sms import ServicoSMS
-from sample.sms_provider_base import SMSProviderBase
+from service_sms import ServicoSMS
+from sms_provider_base import SMSProviderBase
 
 def test_deve_enviar_via_provedor_primario():
     servico = ServicoSMS("primary")

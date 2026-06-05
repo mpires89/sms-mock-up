@@ -1,4 +1,4 @@
-from secondary_sms_provider import SMSProviderBase
+from sms_provider_base import SMSProviderBase
 
 class SecondarySMSProvider(SMSProviderBase):
     """Implementação secundária (ex: Provedor de backup/mais barato)."""

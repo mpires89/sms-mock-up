@@ -1,6 +1,6 @@
 
-from sample.primary_sms_provider import PrimarySMSProvider
-from sample.secondary_sms_provider import SecondarySMSProvider
+from primary_sms_provider import PrimarySMSProvider
+from secondary_sms_provider import SecondarySMSProvider
 
 class ServicoSMS:
     """Classe de serviço que decide a estratégia de envio no momento do instanciamento."""
